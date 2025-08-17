@@ -1,4 +1,4 @@
-name = "phone-to-timezone"
+name = "micro-api-check"
 main = "src/index.ts"
 compatibility_date = "2025-08-17"
 
