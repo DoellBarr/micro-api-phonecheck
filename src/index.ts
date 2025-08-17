@@ -111,6 +111,7 @@ export default {
         valid: true,
         iana_timezone: guess || 'UTC',
         country: iso2 || null,
+        Phone: p.number
       };
 
       if (verbose) {
