@@ -1,0 +1,6 @@
+name = "phone-to-timezone"
+main = "src/index.ts"
+compatibility_date = "2025-08-17"
+
+[observability]
+enabled = true

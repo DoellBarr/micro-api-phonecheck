@@ -1,0 +1,20 @@
+{
+  "name": "phone-to-timezone",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Micro-API: phone number -> IANA timezone (bestGuess) + country. Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "lint": "echo 'No linter configured'"
+  },
+  "dependencies": {
+    "countries-and-timezones": "^3.6.0",
+    "libphonenumber-js": "^1.11.7"
+  },
+  "devDependencies": {
+    "wrangler": "^3.60.0",
+    "typescript": "^5.5.4"
+  }
+}
